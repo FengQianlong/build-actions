@@ -10,7 +10,7 @@
 
 
 cat >$NETIP <<-EOF
-uci set network.lan.ipaddr='192.168.1.4'                                    # IPv4 地址(openwrt后台地址)
+uci set network.lan.ipaddr='192.168.1.6'                                    # IPv4 地址(openwrt后台地址)
 uci set network.lan.netmask='255.255.255.0'                                 # IPv4 子网掩码
 uci set network.lan.gateway='192.168.1.2'                                   # IPv4 网关
 uci set network.lan.broadcast='192.168.1.255'                               # IPv4 广播
